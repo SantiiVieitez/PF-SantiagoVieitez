@@ -46,3 +46,14 @@
 .mine-links li a:hover{
   color: #e3ae1d;
 }
+.menu-maestro{
+ align-items: center;
+}
+.menu{
+padding: 10px;
+}
+.menu img{
+  width: 500px;
+  height: 500px;
+}
+
