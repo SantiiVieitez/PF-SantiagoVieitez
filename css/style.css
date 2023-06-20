@@ -57,3 +57,14 @@ padding: 10px;
   height: 500px;
 }
 
+.foto-nav{
+  transition: all 0.3s ease 0s;
+}
+
+.foto-nav:hover{
+  transform: scale(1.1);
+}
+.h1-index{
+  font-size:40px;
+  font-weight: 700px;
+}
