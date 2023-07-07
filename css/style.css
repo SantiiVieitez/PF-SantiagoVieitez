@@ -1,9 +1,9 @@
 .navbar-mine{
-  background-color: #013a31;
+  background-color: #107fbe;
 }
 .navbar-a-mine{
   padding: 10px 50px;
-  color: #015c4e;
+  color: #155a81;
   font-size: 20px;
   font-weight: 700;
   margin: 10px;
@@ -16,10 +16,10 @@
 }
 .navbar-a-mine:hover{
   transform: scale(1.1);
-  background-color: #017d69;
+  background-color: #01567d;
 }
 .footer{
-  background: #013a31;
+  background: #107fbe;
   color:white;
 }
 .links ul{
@@ -31,7 +31,7 @@
 }
 .links ul li a:hover{
   text-decoration: none;
-  color: #4180CB;
+  color: #000000;
 }
 .copyright p{border-top:1px solid rgba(255,255,255,.1);
 } 
@@ -60,4 +60,8 @@ padding: 10px;
 
 .foto-nav:hover{
   transform: scale(1.1);
+}
+.img-index{
+  width: 700px;
+  height: auto;
 }
