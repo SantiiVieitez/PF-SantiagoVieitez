@@ -1,0 +1,105 @@
+$color-primario: #107fbe;
+$color-secundario: #155a81;
+$color-hover: #01567d;
+$color-blanco: #FFF;
+$color-negro: #000000;
+$color-amarillo: #e3ae1d;
+
+$boton-estilos: (
+  padding: 10px 50px,
+  color: $color-secundario,
+  font-size: 20px,
+  font-weight: 700,
+  margin: 10px,
+  background-color: $color-blanco,
+  border: 0,
+  border-style: none,
+  border-radius: 20px,
+  cursor: pointer,
+  transition: all 0.3s ease 0s
+);
+
+@mixin transition($properties, $duration, $timing: ease) {
+  transition: $properties $duration $timing;
+}
+
+.navbar-mine {
+  background-color: $color-primario;
+}
+
+.navbar-a-mine {
+  @extend %boton-estilo;
+  &:hover {
+    transform: scale(1.1);
+    background-color: $color-hover;
+  }
+}
+
+%boton-estilo {
+  @each $prop, $value in $boton-estilos {
+    #{$prop}: $value;
+  }
+}
+
+.foto-nav {
+  @include transition(all, 0.4s);
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.footer {
+    background: $color-primario;
+    color: white;
+  }
+  
+  .links {
+    ul {
+      list-style-type: none;
+  
+      li {
+        a {
+          color: white;
+          transition: color 0.2s;
+  
+          &:hover {
+            text-decoration: none;
+            color: $color-negro;
+          }
+        }
+      }
+    }
+  }
+  
+  .copyright {
+    p {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+  
+  .mine-links {
+    li {
+      a {
+        text-decoration: none;
+        color: $color-blanco;
+        transition: all 0.3s ease 0s;
+  
+        &:hover {
+          color: $color-amarillo;
+        }
+      }
+    }
+  }
+  
+  .menu-maestro {
+    align-items: center;
+  }
+  
+  .menu {
+    padding: 10px;
+  
+    img {
+      width: 500px;
+      height: 500px;
+    }
+  }
