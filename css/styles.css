@@ -1,5 +1,5 @@
 * {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar-mine {
@@ -76,6 +76,15 @@
 
 .formulario {
   padding: 20px;
+}
+
+.boton {
+  background-color: #107fbe;
+  transition: all 0.3s ease 0s;
+  margin: 10px 0px 0px 0px;
+}
+.boton:hover {
+  background-color: #01567d;
 }
 
 /*# sourceMappingURL=styles.css.map */
