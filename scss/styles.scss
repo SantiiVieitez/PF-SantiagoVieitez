@@ -1,5 +1,9 @@
 @import './base/colores.scss';
 
+*
+{
+  font-family: 'Nunito Sans', sans-serif;
+}
 $boton-estilos: (
   padding: 10px 50px,
   color: $color-secundario,
